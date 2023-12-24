@@ -1,13 +1,20 @@
+body {
+    font-family: Roboto;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    height: 50px;
 }
 
 li {
     float: left;
+    height: 40px;
+    line-height: 40px;
 }
 
 li a {
@@ -22,12 +29,15 @@ li a:hover:not(.active) {
     background-color: #524f4c;
 }
 
-.active {
-    background-color: #04AA6D;
+.contact-menu-item {
+    color: #e61414;
 }
 
 div {
     background-color: #797c80;
+}
+.phone-number{
+    color: #e61414;
 }
 
 footer {
